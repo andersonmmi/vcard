@@ -69,13 +69,13 @@ function populateBio(){
   //bio.appendChild(bioContent);
   bio.innerHTML = `
     <h2>The Basics</h2>\n
-    <ul>
+    
       <li>Name: ${name}</li>\n
       <li>Github URL: <a href=${url}>${login}<a/></li>\n
       <li>Email: ${email}</li>\n
       <li>Company: ${company}</li>\n
       <li>Website: pages.github/${login}</li>\n
-    </ul>
+
   `
 }
 
