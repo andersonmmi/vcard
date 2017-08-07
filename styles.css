@@ -1,0 +1,47 @@
+
+.wrapper{
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+h1{
+
+  font-family:fantasy;
+  font-size: 10vw;
+  text-align: center;
+  color: #ddd;
+  background-color: #333;
+}
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #333;
+  background-color: #ddd;
+  padding: 5% 3% 5% 3%;
+}
+#bio{
+  display: flex;
+  flex-direction: column;
+  max-width: 25vw;
+}
+ul, li{
+  list-style: none;
+  list-style-type: none;
+  align-items: left;
+}
+.story{
+  display: flex;
+  flex-direction: column;
+  max-width: 40vw;
+}
+img{
+  display:flex;
+  flex-direction: column;
+  border: 0px solid black;
+  border-radius: 50%;
+  max-width: 25vw;
+  max-height: 25vw;
+}

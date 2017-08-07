@@ -68,12 +68,14 @@ function populateBio(){
   //console.log(bioContent);
   //bio.appendChild(bioContent);
   bio.innerHTML = `
-    The Basics\n
-      Name: ${name}\n
-      Github URL: ${url}\n
-      Email: ${email}\n
-      Company: ${company}\n
-      Website: pages.github/andersonmmi\n
+    <h2>The Basics</h2>\n
+    <ul>
+      <li>Name: ${name}</li>\n
+      <li>Github URL: <a href=${url}>${login}<a/></li>\n
+      <li>Email: ${email}</li>\n
+      <li>Company: ${company}</li>\n
+      <li>Website: pages.github/${login}</li>\n
+    </ul>
   `
 }
 
@@ -81,7 +83,7 @@ function populateStory(){
   story = document.querySelector('.story');
   console.log(`the story thing is ${story}`);
   story.innerHTML = `
-    The Story\n
+    <h2>The Story</h2>\n
       ${storyContent}\n
   `;
 }
